@@ -11,6 +11,17 @@ class Header extends Component {
     const name = this.props.data.name;
     const description = this.props.data.description;
 
+    //   | "thick"
+    // | "circle"
+    // | "cobweb"
+    // | "polygon"
+    // | "square"
+    // | "tadpole"
+    // | "fountain"
+    // | "random"
+    // | "list"
+    // | "custom";
+
     return (
       <header id="home">
         <ParticlesBg type="cobweb" bg={true} />
@@ -48,11 +59,11 @@ class Header extends Component {
               </a>
             </li>
 
-            <li>
+            {/* <li>
               <a className="smoothscroll" href="#contact">
                 Contact
               </a>
-            </li>
+            </li> */}
           </ul>
         </nav>
 
